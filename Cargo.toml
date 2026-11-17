@@ -1,10 +1,13 @@
 [package]
-name = "arch-pacman-mirrors"
+name = "sigmaos-arch-pacman-mirrors"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-pacman-mirrors component - Inspired by Arch Linux and Debian"
+description = "Package mirror management for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-pacman-mirrors"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_pacman_mirrors"
+path = "src/lib.rs"

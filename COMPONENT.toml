@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-arch-pacman-mirrors"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "SigmaOS SigmaOS-arch-pacman-mirrors component"
+description = "Package mirror management with ranking, speed testing, and sync"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["mirror-management", "package-mirrors", "speed-ranking"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "Mirror list generation and automated speed testing"
