@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-pacman-mirrors
+// Integration test for SigmaOS-pacman-mirrors
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_pacman_mirrors::{Mirror, MirrorManager};
+use sigmaos_pacman_mirrors::{Mirror, MirrorManager};
 
 #[test]
 fn crate_links_and_runs() {

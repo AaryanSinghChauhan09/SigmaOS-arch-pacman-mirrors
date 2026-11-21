@@ -1,6 +1,6 @@
-# SigmaOS-arch-pacman-mirrors
+# SigmaOS-pacman-mirrors
 
-SigmaOS SigmaOS-arch-pacman-mirrors component
+SigmaOS SigmaOS-pacman-mirrors component
 
 - **Category:** Components
 - **Engine:** component
